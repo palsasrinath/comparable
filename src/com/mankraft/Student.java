@@ -15,7 +15,7 @@ package com.mankraft;
 	@Override
 	public int compareTo(Student st) {
    if(age==st.age)
-       
+       System.out.println("haiii this comparable");
     	   return 0;  
       
        else if(age>st.age)
